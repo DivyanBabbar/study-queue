@@ -1,0 +1,11 @@
+{
+  "name": "study-queue",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/task-state.js && node --check src/app.js"
+  },
+  "engines": { "node": ">=20" }
+}
